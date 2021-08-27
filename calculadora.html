@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="p-3 mb-2 bg-warning text-dark">
+        <h1><center>Calculadora</center></h1>
+    </div>
+ 
+    
+      <div id="principal">
+  
+      </div>
+  
+      <script src="js/calculadora.js"> </script>
+      <form id "formulario" name="" method="post">
+
+        <div><center>
+        <label>Número 1:</label>
+        
+        <input id="Num1" type="number" placeholder="Ingrese el Numero"/>
+        <br>
+        <label>Número 2:</label>
+        
+        <input id="Num2" type="number" placeholder="Ingrese el Numero"/></center></div>
+        <br />
+        <div class="p-4 mb-2 btn-success" aria-colcount="formulario">
+        <br /><br />
+        <button class="btn btn-danger" type="button" onclick="sumar();">SUMA</button>
+        <button class="btn btn-primary" type="button" onclick="restar();">RESTA</button>
+        <button class="btn btn-warning" type="button" onclick="multiplicar();">MULTIPLICACION</button>
+        <button class="btn btn-success" type="button" onclick="dividir();">DIVIDIR</button>
+ 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>El resultado de tu operacion es: <span id="resultado"></span></p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button class="btn btn-primary" type="button" onclick="tabla();">LIMPIAR</button>
+    </div>
+       
+    </form>
+  
+</body>
+</html>
